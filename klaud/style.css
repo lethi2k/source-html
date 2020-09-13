@@ -1856,6 +1856,7 @@ header .main-menu .menu-1 ul li a:hover {
     }
 }
 header .main-menu .menu-1 ul li .submenu {
+    margin-top: 20px !important;
     opacity: 0;
     border-top: 2px solid #fb0053;
     left: 0;
@@ -1865,8 +1866,11 @@ header .main-menu .menu-1 ul li .submenu {
     visibility: hidden;
     position: absolute;
     z-index: 999;
-    -webkit-box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.05);
-    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.05);
+    border-left: 1px solid rgba(184, 176, 176, 0.5);
+    border-right: 1px solid rgba(184, 176, 176, 0.5);
+    border-bottom: 1px solid rgba(184, 176, 176, 0.5);
+    -webkit-box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.15);
+    box-shadow: 0 0 25px 0 rgba(20, 27, 201, 0.15);
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
@@ -4248,6 +4252,10 @@ header.sticky .mean-container .mean-bar {
     background-image: -moz-linear-gradient(-45deg, white 0%, white 100%);
     background-image: -webkit-linear-gradient(-45deg, white 0%, white 100%);
     background-image: -ms-linear-gradient(-45deg, white 0%, white 100%);
+    border: 1px solid rgba(226, 224, 224, 0.5);
+    padding: 30px;  
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
 }
 @media (max-width: 767px) {
     .contact-us-wrap1.pt-350 {
@@ -4850,4 +4858,17 @@ footer .payment-support li:hover {
 .megamenu-li{
     display: table-cell !important;
     padding: 0 15px 0px 15px;
+    min-width: 200px;
+}
+.megamenu-li a{
+    color: black !important;
+}
+.megamenu-li a:hover{
+    color: rgba(255, 60, 0, 0.932) !important;
+}
+.menu-items img{
+    max-width: 20px !important;
+}
+#contact-form button{
+    background-image: -webkit-linear-gradient(-45deg, #0462ddce 0%, #0462ddce 100%);
 }
