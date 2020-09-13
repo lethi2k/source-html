@@ -1857,8 +1857,9 @@ header .main-menu .menu-1 ul li a:hover {
 }
 header .main-menu .menu-1 ul li .submenu {
     opacity: 0;
+    border-top: 2px solid #fb0053;
     left: 0;
-    min-width: 200px;
+    min-width: 700px;
     background: #fff;
     padding: 10px 30px;
     visibility: hidden;
@@ -1877,6 +1878,7 @@ header .main-menu .menu-1 ul li .submenu {
 }
 header .main-menu .menu-1 ul li .submenu li {
     display: block;
+    
 }
 header .main-menu .menu-1 ul li .submenu li a {
     margin: 0;
@@ -4844,4 +4846,8 @@ footer .payment-support li:hover {
 .subscribe-banner-wrap form button:hover {
     background-image: linear-gradient(-90deg, #8624e1 0%, #c180ff 100%);
     background-image: -webkit-linear-gradient(-90deg, #8624e1 0%, #c180ff 100%);
+}
+.megamenu-li{
+    display: table-cell !important;
+    padding: 0 15px 0px 15px;
 }
